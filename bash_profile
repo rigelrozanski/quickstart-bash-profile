@@ -2,6 +2,8 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export PS1='\w$ '
 
+eval $(thefuck --alias)
+
 #tab to rotate through options
 bind '"\t":menu-complete'
 
